@@ -2,7 +2,7 @@ let nome = prompt("Qual o seu nome?");
 let idade = prompt("Qual sua idade?");
 let linguagem = prompt("Qual linguagem de programação você está aprendendo?");
 
-let mensagem1 = `Olá ${nome}, você tem ${idade} e já está aprendendo ${linguagem}!`;
+let mensagem1 = `Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}!`;
 
 alert(mensagem1);
 
