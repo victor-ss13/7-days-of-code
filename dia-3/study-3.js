@@ -29,6 +29,16 @@ else if (area == "Back-End", "Back-end", "Backend", "BackEnd", "backend") {
 
 else {"Não entendi. Poderia repetir?"};
 
+let especialidadeOuFullstack = prompt("Digite 1 para seguir se especializando na área escolhida ou 2 para seguir se desenvolvendo para se tornar Fullstack");
+
+if (especialidadeOuFullstack == 1) {
+    alert("Continue aprendendo linguagens e ferramentas do Front-End para dominar a área!")
+}
+
+else if (especialidadeOuFullstack == 2) {
+    alert("Chegou a hora de aprender outras linguagens se você quer se tornar Fullstack!")
+}
+
 let aprender = prompt("Existe mais alguma tecnologia que você gostaria de conhecer ou aprender? Digite 1 para SIM e 2 para NÃO");
 
 if (aprender == 1){
