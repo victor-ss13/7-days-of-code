@@ -5,15 +5,15 @@ let congelados = [];
 let comida = "";
 let categoria = "";
 
-let adicionarMais = "sim";  // valor inicial como "sim", porque a primeira vez sempre vai entrar no while
+let adicionarMais = "sim";  
 while(adicionarMais != "não"){
     adicionarMais = prompt("Você deseja adicionar uma comida na lista de compras? Responda 'sim' ou 'não'.");
-    while (adicionarMais != "sim" && adicionarMais != "não") {  //enquanto o texto lido for diferente de "sim" e de "não", exibir que não foi reconhecido e perguntar novamente
+    while (adicionarMais != "sim" && adicionarMais != "não") {  
 	alert(`Operação não reconhecida!`);
         adicionarMais = prompt("Você deseja adicionar uma comida na lista de compras? Responda 'sim' ou 'não'.");
     }
 	
-    if (adicionarMais === "não"){  //se o texto lido for "não", sair do while
+    if (adicionarMais === "não"){  
         break;
     }
 	
